@@ -1,0 +1,51 @@
+* {
+	margin:0;
+	padding:0;
+	color: #fff;
+	font-family: sans-serif;
+}
+body {
+	background: #252424;
+}
+.center {
+	padding: 30px;
+	/*background: red;*/
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#txt{
+	padding: 7px;
+	border: none;
+	outline: none;
+	border-radius: 2px;
+	color: black;
+	width: 100%;
+}
+h1{
+	font-size: 40px;
+}
+.card{
+	box-sizing: border-box;
+	padding: 15px;
+	background: blue;
+	margin-bottom: 7px;
+}
+.fullcard{
+	
+	visibility: hidden;
+}
+.num{
+	margin-top: 5px;
+	font-size: 12px;
+}
+.card1{
+	background: #0763a5;
+}
+.card2{
+	background: #12a33e;
+}
+.card3{
+	background: #e02727;
+}
